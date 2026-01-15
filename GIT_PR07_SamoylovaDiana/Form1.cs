@@ -16,5 +16,12 @@ namespace GIT_PR07_SamoylovaDiana
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide(); 
+            AdminForm2 adminForm = new AdminForm2();
+            adminForm.Show(); 
+        }
     }
 }
